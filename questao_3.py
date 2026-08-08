@@ -1,0 +1,17 @@
+#.upper - deixa tudo maiusculo#
+#.lower - deixa tudo minusculo#
+turno = input("Dígite o turno que você estuda.( M - Matutino, V - Vespertino, N - Noturno)  ").upper
+
+if turno == "M":
+    print("Bom Dia!")
+
+elif turno == "V" :
+    print("Boa Tarde!")
+
+elif turno =="N" :
+    print("Boa Noite!")
+
+else:
+    print("Valor inválido")
+
+
